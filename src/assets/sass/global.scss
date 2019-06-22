@@ -3,7 +3,7 @@ body {
   padding-top: 54px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: $bp-sidebar) {
   body {
     padding-top: 0;
     padding-left: $sidebar-base-width;

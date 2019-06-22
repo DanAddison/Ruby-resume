@@ -4,14 +4,18 @@
 $white: #fff;
 $black: #000;	
 
-$primary: #49cac8;
+$primary: #b34321;
 $secondary: #da5a83;
 $copy: #333;
 $headings: $copy;
 $brand: $primary;
 $action: $secondary;
 
+$white-overlay1: rgba(255, 255, 255, 0.7);
+$white-overlay2: rgba(255, 255, 255, 0.3);
+
 /*------------------------------------*\
     Structure
 \*------------------------------------*/
 $sidebar-base-width: 17rem;
+$bp-sidebar: 60rem;

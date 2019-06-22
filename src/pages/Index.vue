@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div>
+    <div class="container">
       <About/>
       <hr>
       <Experience/>
@@ -12,6 +12,8 @@
       <Education/>
       <hr>
       <Interests/>
+      <hr>
+      <Contact/>
     </div>
   </Layout>
 </template>
@@ -23,6 +25,7 @@ import Skills from "../components/Skills";
 import Training from "../components/Training";
 import Education from "../components/Education";
 import Interests from "../components/Interests";
+import Contact from "../components/Contact";
 export default {
   components: {
     About,
@@ -30,7 +33,8 @@ export default {
     Skills,
     Training,
     Education,
-    Interests
+    Interests,
+    Contact
   },
   metaInfo: {
     title: "Ruby Resume",
@@ -39,42 +43,39 @@ export default {
 </script>
 
 <style lang="scss">
+.container {
+  padding: 0 1rem;
+
+  @media (min-width: 50rem) {
+    padding: 0 2rem;
+  }
+
+  @media (min-width: 75rem) {
+    padding: 0 4rem;
+  }
+}
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
   @include heading-font;
   font-size: 1.5rem;
 }
-.fa-ul > li {
-  display: flex;
-  align-items: center;
-}
-.dev-icons {
-  font-size: 3rem;
-}
-.dev-icons .list-inline-item svg:hover {
-  color: var(--primary);
-}
 section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
-  max-width: 75rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 50rem;
 }
-section.resume-section .resume-item .resume-date {
-  min-width: none;
-}
-@media (min-width: 768px) {
+
+@media (min-width: $bp-sidebar) {
   section.resume-section {
     min-height: 100vh;
   }
-  section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
-  }
 }
-@media (min-width: 992px) {
+@media (min-width: 75rem) {
   section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    max-width: 60rem;
   }
 }
 </style>

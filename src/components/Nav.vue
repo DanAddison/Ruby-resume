@@ -1,12 +1,12 @@
 <template>
   <nav class="navbar" id="sideNav">
     <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
-      <span>Ruby Bolton</span>
-      <span>
+      <span class="name">Ruby Bolton</span>
+      <span class="avatar">
         <g-image
           alt="Image of Loke"
           src="../assets/images/KefaloniaThumb2.jpg"
-          class="img-fluid img-profile rounded-circle mx-auto mb-2"
+          class="img-profile"
         />
       </span>
     </div>
@@ -31,6 +31,9 @@
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interests</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#contact')">Contact</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -42,17 +45,21 @@
   cursor: pointer;
 }
 #sideNav {
-  // background-color: $primary;
+  background-color: $primary;
+  .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+  .navbar-toggler:focus {
+    outline-color: #d48a6e;
+  }
+  #navbarSupportedContent,
+  .avatar {
+    display: none;
+  }
 }
-#sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 800;
-  letter-spacing: 0.05rem;
-  text-transform: uppercase;
-}
-#sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
-}
-@media (min-width: 992px) {
+@media (min-width: $bp-sidebar) {
   #sideNav {
     text-align: center;
     position: fixed;
@@ -60,35 +67,44 @@
     left: 0;
     display: flex;
     flex-direction: column;
+    // align-items: flex-start;
+    // flex-grow: 0;
     width: 17rem;
     height: 100vh;
-  }
-  #sideNav .navbar-brand {
-    display: flex;
-    margin: auto auto 0;
-    padding: 0.5rem;
-  }
-  #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
-  }
-  #sideNav {
-    display: flex;
-    align-items: flex-start;
-    flex-grow: 0;
-    width: 100%;
-    margin-bottom: auto;
-  }
-  #sideNav .navbar-nav {
-    flex-direction: column;
-    width: 100%;
-  }
-  #sideNav .navbar-nav .nav-item {
-    display: block;
-  }
-  #sideNav .navbar-nav .nav-item .nav-link {
-    display: block;
+
+    .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+      .name {
+        display: none;
+      }
+      .avatar {
+        display: block;
+        .img-profile {
+          max-width: 10rem;
+          max-height: 10rem;
+          border: 0.5rem solid $white-overlay2;
+          border-radius: 50%;
+        }
+      }
+    }
+  
+    #navbarSupportedContent {
+      display: flex;
+      width: 100%;
+      margin-bottom: auto;
+      .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0;
+      }
+      .nav-item, .nav-link {
+        display: block;
+        padding: .25rem 0;
+        color: $white-overlay1;
+      }
+    }
   }
 }
 </style>

@@ -6,36 +6,9 @@
         <span class="text-primary">Bolton</span>
       </h1>
       <div class="subheading">
-        9695 Foo street · Bar town, CO 93440 · (123) 456-7890 ·
-        <a
-          href="mailto:name@email.com"
-        >name@email.com</a>
+        <p>Artist / Educator</p>
       </div>
-      <p
-        class="lead"
-      >I am experienced in Vue.js and React.js in which I produce high quality code for my clients that are both well performing and well tested. I focus on solving problems, not only technical problems but creating an awesome experience for the users of my software both visual and accessible. Mixing powerful tools and knowledge about the users brings visual UI's to life and leads to webpages being accessible and useful.</p>
-      <p class="lead">
-        Get your own resume started using this template with Gridsome here:
-        <a
-          href="https://github.com/LokeCarlsson/gridsome-starter-resume"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Github repo</a>.
-      </p>
-      <div class="social-icons">
-        <a href="https://linkedin.com/in/lokecarlsson" target="_blank" rel="noopener noreferrer">
-          <!-- <font-awesome :icon="['fab', 'linkedin']"/> -->
-        </a>
-        <a href="https://github.com/LokeCarlsson" target="_blank" rel="noopener noreferrer">
-          <!-- <font-awesome :icon="['fab', 'github']"/> -->
-        </a>
-        <a href="https://twitter.com/carlssonloke" target="_blank" rel="noopener noreferrer">
-          <!-- <font-awesome :icon="['fab', 'twitter']"/> -->
-        </a>
-        <a href="https://www.facebook.com/carlssonloke" target="_blank" rel="noopener noreferrer">
-          <!-- <font-awesome :icon="['fab', 'facebook']"/> -->
-        </a>
-      </div>
+      <p class="lead">I work in education because I have a passion to engage young people, communities and individuals through learning. Giving people the opportunity to explore new things, to be creative and imaginative, is something I really value. I am experienced in curating and delivering exciting learning programmes, and in cultivating a diverse audience. I want to make a lasting impact on others through my work.</p>
     </div>
   </section>
 </template>
