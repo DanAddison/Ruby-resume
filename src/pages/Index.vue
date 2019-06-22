@@ -50,16 +50,29 @@ export default {
     padding: 0 4rem;
   }
 }
-.subheading {
-  text-transform: uppercase;
-  font-weight: 500;
-  @include heading-font;
-  font-size: 1.5rem;
-}
 section.resume-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
   max-width: 50rem;
+
+  .subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    @include heading-font;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .resume-date {
+    margin-top: 0;
+    font-size: 1rem;
+    color: $copy-lightest;
+  }
+  .lead {
+    font-size: 1.2rem;
+  }
+  p {
+    color: $copy-light;
+  }
 }
 
 @media (min-width: $bp-sidebar) {

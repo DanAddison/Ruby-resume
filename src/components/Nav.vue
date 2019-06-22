@@ -4,7 +4,7 @@
       <span class="name">Ruby Bolton</span>
       <span class="avatar">
         <g-image
-          alt="Image of Loke"
+          alt="Ruby swimming in the ocean"
           src="../assets/images/KefaloniaThumb2.jpg"
           class="img-profile"
         />

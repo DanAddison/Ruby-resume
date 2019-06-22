@@ -1,12 +1,7 @@
 body {
   @include body-font;
-}
-
-@media (min-width: $bp-sidebar) {
-  body {
-    padding-top: 0;
-    padding-left: $sidebar-base-width;
-  }
+  line-height: 1.5;
+  margin: 0;
 }
 
 h1,
@@ -32,5 +27,9 @@ h2 {
 
 h3 {
   font-size: 2rem;
+  margin-bottom: 0rem;
 }
 
+.text-primary {
+  color: $primary;
+}

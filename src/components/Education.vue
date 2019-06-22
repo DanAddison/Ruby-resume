@@ -6,36 +6,36 @@
       <div class="resume-item">
         <div class="resume-content">
           <h3>Norwich University College of the Arts</h3>
-          <div class="subheading">BA (Hons) Fine Art</div>
+          <p class="subheading">BA (Hons) Fine Art</p>
           <p>2:1</p>
-          <div class="resume-date">
-            <span class="text-primary">2011 - 2014</span>
-          </div>
+          <p class="resume-date">2011 - 2014</p>
         </div>
       </div>
 
       <div class="resume-item">
         <div class="resume-content">
           <h3>University of Creative Arts Canterbury</h3>
-          <div class="subheading">Foundation Diploma in Art and Design</div>
+          <p class="subheading">Foundation Diploma in Art and Design</p>
           <p>Distinction</p>
-          <div class="resume-date">
-            <span class="text-primary">2010 - 2011</span>
-          </div>
+          <p class="resume-date">2010 - 2011</p>
         </div>
       </div>
 
       <div class="resume-item">
         <div class="resume-content">
           <h3>Folkestone School for Girls</h3>
-          <div class="subheading">3 A levels, 9 GCSEs</div>
+          <p class="subheading">3 A levels, 9 GCSEs</p>
           <p>All grade C or above</p>
-          <div class="resume-date">
-            <span class="text-primary">2003 - 2011</span>
-          </div>
+          <p class="resume-date">2003 - 2011</p>
         </div>
       </div>
       
     </div>
   </section>
 </template>
+
+<style lang="scss" scoped>
+p {
+  margin-top: 0;
+}
+</style>
