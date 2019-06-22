@@ -20,9 +20,6 @@
           <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Skills</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#training')">Training</a>
         </li>
         <li class="nav-item">
@@ -44,15 +41,21 @@
 .nav-item {
   cursor: pointer;
 }
+.navbar-brand {
+  padding: 1rem;
+  .name {
+    color: $white-overlay1;
+    text-transform: uppercase;
+  }
+}
 #sideNav {
+  position: fixed;
+  width: 100%;
   background-color: $primary;
   .nav-link {
     font-weight: 800;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
-  }
-  .navbar-toggler:focus {
-    outline-color: #d48a6e;
   }
   #navbarSupportedContent,
   .avatar {
@@ -62,7 +65,6 @@
 @media (min-width: $bp-sidebar) {
   #sideNav {
     text-align: center;
-    position: fixed;
     top: 0;
     left: 0;
     display: flex;
@@ -84,7 +86,7 @@
         .img-profile {
           max-width: 10rem;
           max-height: 10rem;
-          border: 0.5rem solid $white-overlay2;
+          border: 0.5rem solid $white-overlay3;
           border-radius: 50%;
         }
       }
@@ -102,7 +104,7 @@
       .nav-item, .nav-link {
         display: block;
         padding: .25rem 0;
-        color: $white-overlay1;
+        color: $white-overlay2;
       }
     }
   }

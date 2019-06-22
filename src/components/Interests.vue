@@ -7,3 +7,10 @@
     </div>
   </section>
 </template>
+
+<style lang="scss" scoped>
+#interests {
+  max-width: 40rem;
+}
+
+</style>

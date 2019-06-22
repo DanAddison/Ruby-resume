@@ -5,8 +5,6 @@
       <hr>
       <Experience/>
       <hr>
-      <Skills/>
-      <hr>
       <Training/>
       <hr>
       <Education/>
@@ -21,7 +19,6 @@
 <script>
 import About from "../components/About";
 import Experience from "../components/Experience";
-import Skills from "../components/Skills";
 import Training from "../components/Training";
 import Education from "../components/Education";
 import Interests from "../components/Interests";
@@ -30,7 +27,6 @@ export default {
   components: {
     About,
     Experience,
-    Skills,
     Training,
     Education,
     Interests,

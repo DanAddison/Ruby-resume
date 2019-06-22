@@ -4,22 +4,19 @@
       <h2>Training &amp; Certifications</h2>
       <ul>
         <li>
-          CSS Design Awards
+          First Aid 
         </li>
         <li>
-          Shopify Commerce Awards
+          DBS
         </li>
         <li>
-          1<sup>st</sup>
-          Place - Foobar - Emerging Tech Competition 2012
+          Arts Award Advisor, all levels
         </li>
         <li>
-          1<sup>st</sup>
-          Place - Foo Bar High School - Hackathon 2010
+          Autism Awareness 
         </li>
         <li>
-          3<sup>rd</sup>
-          Place - Foo Bar High School - Hackathon 2009
+          E-learning courses including safeguarding, data protection
         </li>
       </ul>
     </div>

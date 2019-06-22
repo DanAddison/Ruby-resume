@@ -14,33 +14,8 @@
 </template>
 
 <style lang="scss" scoped>
-.social-icons a {
-  cursor: pointer;
-  display: inline-block;
-  height: 3.5rem;
-  width: 3.5rem;
-  background-color: var(--secondary);
-  color: #fff !important;
-  border-radius: 100%;
-  text-align: center;
-  font-size: 1.5rem;
-  line-height: 3.5rem;
-  margin-right: 1rem;
-
-  @media (max-width: 380px) {
-    margin-right: 0.5rem;
-  }
-
-  @media (max-width: 350px) {
-    margin-right: 0.2rem;
-  }
+#about {
+  max-width: 40rem;
 }
 
-.social-icons a:last-child {
-  margin-right: 0;
-}
-
-.social-icons a:hover {
-  background-color: var(--primary);
-}
 </style>
