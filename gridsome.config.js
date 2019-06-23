@@ -17,6 +17,7 @@ function addStyleResource (rule) {
 
 module.exports = {
   siteName: 'Ruby Resume',
+  siteUrl: 'https://ruby-resume.netlify.com',
   
   chainWebpack (config) {
     // Load variables for all vue-files

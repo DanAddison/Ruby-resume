@@ -1,6 +1,5 @@
 <template>
   <section class="resume-section" id="contact">
-    <div>
       <h2>Contact</h2>
       <form name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
@@ -25,44 +24,35 @@
           <button type="submit">Send</button>
         </p>
       </form>
-    
-      <div class="social-icons">
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fab', 'instagram']"/>
-        </a>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fab', 'facebook']"/>
-        </a>
-      </div>
-
-    </div>
   </section>
 </template>
 
 <style lang="scss" scoped>
-label, input, textarea {
-  display: block;
-  width: 30rem;
-}
-textarea {
-  height: 10rem;
-}
-.social-icons {
-  margin-top: 4rem;
-  a {
-    cursor: pointer;
-    display: inline-block;
-    color: $copy-light;
-    font-size: 2rem;
-    margin-right: 2rem;
+form {
+  width: 40rem;
+  max-width: 100%;
+  label, input, textarea {
+    display: block;
+    width: 100%;
   }
-}
-
-.social-icons a:last-child {
-  margin-right: 0;
-}
-
-.social-icons a:hover {
-  color: $primary;
+  label {
+    
+  }
+  textarea {
+    height: 10rem;
+  }
+  button[type="submit"] {
+    background-color: $primary;
+    color: $white;
+    border: 0;
+    font-size: 1em;
+    margin-top: 1em;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    &:hover,
+    &:focus {
+      background-color: $secondary;
+    }
+  }
 }
 </style>

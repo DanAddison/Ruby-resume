@@ -1,10 +1,8 @@
 <template>
   <section class="resume-section" id="interests">
-    <div>
       <h2>Interests</h2>
-      <p class="lead">Apart from being a frontend developer, I enjoy most of my time being outdoors. In the winter, I like to go ski and sometimes go ice fishing. During the summer, I enjoy mountain biking, running, and fishing.</p>
-      <p class="lead">I like to create websites for fun, trying out new technologies and tools to improve myself as developer and stay up to date with current tech. I love watching ted talks and reading development stories on Reddit.</p>
-    </div>
+      <p class="lead">I'm from a large and very creative family, and have always made visual art. I particularly enjoy making collages, hand-made jewellery and paper-cut crafts. I also play piano, especially modern minimalist classical pieces.</p>
+      <p class="lead">I love family and friends, cycling and swimming, Netflix and chill and poached eggs.</p>
   </section>
 </template>
 

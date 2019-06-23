@@ -1,6 +1,5 @@
 <template>
   <section class="resume-section" id="education">
-    <div>
       <h2>Education</h2>
 
       <div class="resume-item">
@@ -29,13 +28,12 @@
           <p class="resume-date">2003 - 2011</p>
         </div>
       </div>
-      
-    </div>
   </section>
 </template>
 
 <style lang="scss" scoped>
 p {
   margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 </style>

@@ -3,9 +3,11 @@
     <div class="container">
       <About/>
       <hr>
+      <!-- <Portfolio/>
+      <hr> -->
       <Experience/>
       <hr>
-      <Training/>
+      <Skills/>
       <hr>
       <Education/>
       <hr>
@@ -18,16 +20,18 @@
 
 <script>
 import About from "../components/About";
+// import Portfolio from "../components/Portfolio";
 import Experience from "../components/Experience";
-import Training from "../components/Training";
+import Skills from "../components/Skills";
 import Education from "../components/Education";
 import Interests from "../components/Interests";
 import Contact from "../components/Contact";
 export default {
   components: {
     About,
+    // Portfolio,
     Experience,
-    Training,
+    Skills,
     Education,
     Interests,
     Contact
