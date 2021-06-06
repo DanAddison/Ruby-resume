@@ -29,6 +29,15 @@
           <p>Responsible for outreach and audience development; creating a learning strategy in line with the ethos and educational policies of the institution. Generating public engagement with contemporary art, specifically in response to in-house exhibitions and events.</p>
         </div>
       </div>
+
+      <div class="resume-item">
+        <div class="resume-content">
+          <h3>Engagement Producer</h3>
+          <p class="subheading">Beacons</p>
+          <p class="resume-date">2019 - 2020</p>
+          <p>Sea gooseberries etc....</p>
+        </div>
+      </div>
       
   </section>
 </template>

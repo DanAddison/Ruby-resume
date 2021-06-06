@@ -3,15 +3,13 @@
     <div class="container">
       <About/>
       <hr>
-      <!-- <Portfolio/>
-      <hr> -->
+      <Gallery/>
+      <hr>
       <Experience/>
       <hr>
       <Skills/>
       <hr>
       <Education/>
-      <hr>
-      <Interests/>
       <hr>
       <Contact/>
     </div>
@@ -20,20 +18,18 @@
 
 <script>
 import About from "../components/About";
-// import Portfolio from "../components/Portfolio";
+import Gallery from "../components/Gallery";
 import Experience from "../components/Experience";
 import Skills from "../components/Skills";
 import Education from "../components/Education";
-import Interests from "../components/Interests";
 import Contact from "../components/Contact";
 export default {
   components: {
     About,
-    // Portfolio,
+    Gallery,
     Experience,
     Skills,
     Education,
-    Interests,
     Contact
   },
   metaInfo: {
