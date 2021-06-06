@@ -10,7 +10,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
     "@fortawesome/vue-fontawesome": "^0.1.6",
-    "gridsome": "^0.6.0"
+    "gridsome": "^0.7.23"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",
