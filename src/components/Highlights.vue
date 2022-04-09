@@ -1,35 +1,35 @@
 <template>
-  <section class="resume-section" id="gallery">
-    <h2>gallery</h2>
+  <section class="resume-section" id="highlights">
+    <h2>Highlights</h2>
 
     <div class="resume-item">
-      <div class="gallery-item">
+      <div class="highlight-item">
         <g-image
-          alt="Ben Fletcher website screenshot in dark mode"
+          alt="Video thumbnail showing the process of a carnival build."
           src="../assets/images/KefaloniaThumb2.jpg"
           class="img-profile"
           height="364"
           width="500"
           fit="cover"
         />
-        <div class="gallery-item__overlay">
-          <h1>benfletcher.com</h1>
-          <p class="subtitle">Uses my flexible WordPress gallery/shop theme for creators.</p>
-          <p class="tech-stack">
-            <span>Tech stack:</span> WordPress, WooCommerce, Sass, jQuery, Gulp
+        <div class="highlight-item__overlay">
+          <h3>'Virtual Tim' carnival build</h3>
+          <p class="organisation">for Strange Cargo</p>
+          <p class="highlight-copy">
+            I have lead dozens of wacky carnival builds with school children and teachers. Here's an insight into the process, in time-lapse form. 
           </p>
           <div class="links">
             <p>
-              <a href="https://github.com/DanAddison/ben-fletcher" target="_blank">
-                View code
-                <font-awesome :icon="['fab', 'github']" />
+              <a href="https://dan4ruby.com" target="_blank">
+                Watch video
+                <font-awesome :icon="['fas', 'external-link-alt']" />
               </a>
             </p>
           </div>
         </div>
       </div>
 
-      <div class="gallery-item">
+      <div class="highlight-item">
         <g-image
           alt="dan4ruby.com screenshot"
           src="../assets/images/KefaloniaThumb2.jpg"
@@ -38,11 +38,11 @@
           width="500"
           fit="cover"
         />
-        <div class="gallery-item__overlay">
-          <h1>dan4ruby.com</h1>
-          <p class="subtitle">Wedding event information website.</p>
-          <p class="tech-stack">
-            <span>Tech stack:</span> Gatsby, Styled Components, Styled System, Typeform
+        <div class="highlight-item__overlay">
+          <h3>'Personal Archive' video tutorial</h3>
+          <p class="organisation">for Creative Folkestone</p>
+          <p class="highlight-copy">
+            During lockdown I became adept at producing video workshop tutorials. Here's an example of an idea that I delivered as part of CF's blah blah...
           </p>
           <div class="links">
             <p>
@@ -51,17 +51,11 @@
                 <font-awesome :icon="['fas', 'external-link-alt']" />
               </a>
             </p>
-            <p>
-              <a href="https://github.com/DanAddison/dan4ruby-gatsby" target="_blank">
-                View code
-                <font-awesome :icon="['fab', 'github']" />
-              </a>
-            </p>
           </div>
         </div>
       </div>
 
-      <div class="gallery-item">
+      <div class="highlight-item">
         <g-image
           alt="jm-woodcraft.com screenshot"
           src="../assets/images/KefaloniaThumb2.jpg"
@@ -70,11 +64,11 @@
           fit="cover"
         />
 
-        <div class="gallery-item__overlay">
-          <h1>jm-woodcraft.com</h1>
-          <p class="subtitle">Bespoke brochure/archive site for a carpenter.</p>
-          <p class="tech-stack">
-            <span>Tech stack:</span> WordPress, Sass, jQuery, Gulp
+        <div class="highlight-item__overlay">
+          <h3>Something</h3>
+          <p class="organisation">for Lanterns Project</p>
+          <p class="highlight-copy">
+            Something I did for the Sea Gooseberries public event while serving as their Engagement Producer.
           </p>
           <div class="links">
             <p>
@@ -83,17 +77,11 @@
                 <font-awesome :icon="['fas', 'external-link-alt']" />
               </a>
             </p>
-            <p>
-              <a href="https://github.com/DanAddison/JM-Woodcraft" target="_blank">
-                View code
-                <font-awesome :icon="['fab', 'github']" />
-              </a>
-            </p>
           </div>
         </div>
       </div>
 
-      <div class="gallery-item">
+      <div class="highlight-item">
         <g-image
           alt="johnhosking.com screenshot"
           src="../assets/images/KefaloniaThumb2.jpg"
@@ -103,11 +91,11 @@
           fit="cover"
         />
 
-        <div class="gallery-item__overlay">
-          <h1>johnhosking.com</h1>
-          <p class="subtitle">gallery website for an artist.</p>
-          <p class="tech-stack">
-            <span>Tech stack:</span> Sass, Nunjucks, jQuery, Gulp
+        <div class="highlight-item__overlay">
+          <h3>Something</h3>
+          <p class="organisation">for Sidney Cooper Gallery</p>
+          <p class="highlight-copy">
+            a particular exhibition?
           </p>
           <div class="links">
             <p>
@@ -126,7 +114,7 @@
         </div>
       </div>
 
-      <div class="gallery-item">
+      <div class="highlight-item">
         <g-image
           alt="jazzbeams.com screenshot"
           src="../assets/images/KefaloniaThumb2.jpg"
@@ -135,11 +123,11 @@
           width="500"
           fit="cover"
         />
-        <div class="gallery-item__overlay">
-          <h1>jazzbeams.com</h1>
-          <p class="subtitle">Brochure website for freelance DJs.</p>
-          <p class="tech-stack">
-            <span>Tech stack:</span> Gridsome, Vue, Sass
+        <div class="highlight-item__overlay">
+          <h3>Something</h3>
+          <p class="organisation">for Animate Arts</p>
+          <p class="highlight-copy">
+            A particular learning materials pack?
           </p>
           <div class="links">
             <p>
@@ -148,17 +136,11 @@
                 <font-awesome :icon="['fas', 'external-link-alt']" />
               </a>
             </p>
-            <p>
-              <a href="https://github.com/DanAddison/jazz-beams" target="_blank">
-                View code
-                <font-awesome :icon="['fab', 'github']" />
-              </a>
-            </p>
           </div>
         </div>
       </div>
 
-      <div class="gallery-item">
+      <div class="highlight-item">
         <g-image
           alt="daniel-addison-lyrics-archive screenshot"
           src="../assets/images/KefaloniaThumb2.jpg"
@@ -167,23 +149,17 @@
           width="500"
           fit="cover"
         />
-        <div class="gallery-item__overlay">
-          <h1>lyrics-archive.com</h1>
-          <p class="subtitle">Documentation website for a songwriter.</p>
-          <p class="tech-stack">
-            <span>Tech stack:</span> Markdown, Javascript, Docsify
+        <div class="highlight-item__overlay">
+          <h3>Something</h3>
+          <p class="organisation">for Folkestone Fringe</p>
+          <p class="highlight-copy">
+            A particular workshop?
           </p>
           <div class="links">
             <p>
               <a href="https://daniel-addison-lyrics-archive.netlify.com/#/" target="_blank">
                 Visit site
                 <font-awesome :icon="['fas', 'external-link-alt']" />
-              </a>
-            </p>
-            <p>
-              <a href="https://github.com/DanAddison/Songwriting" target="_blank">
-                View code
-                <font-awesome :icon="['fab', 'github']" />
               </a>
             </p>
           </div>
@@ -207,7 +183,7 @@ section.resume-section {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
-.gallery-item {
+.highlight-item {
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -227,7 +203,7 @@ section.resume-section {
   }
 }
 
-.gallery-item__overlay {
+.highlight-item__overlay {
   position: absolute;
   top: 0;
   right: 0;
@@ -240,6 +216,7 @@ section.resume-section {
   flex-grow: 1;
   justify-content: center;
   background-color: $primary;
+  color: $white;
   transition: 0.3s;
   opacity: 0;
 
@@ -249,24 +226,24 @@ section.resume-section {
   }
 
   p {
-    color: $copy;
     margin: 0;
     line-height: 1;
+    color: $white;
   }
 
-  h1 {
+  h3 {
     font-size: 1.5rem;
     line-height: 1;
     margin: 0;
+    color: $white;
   }
 
-  .subtitle {
+  .organisation {
     font-weight: bold;
     margin: 0.5em 0 0.7em;
   }
 
-  .tech-stack {
-    color: $copy-light;
+  .highlight-copy {
     font-size: 0.9rem;
   }
 
@@ -282,15 +259,13 @@ section.resume-section {
       flex-grow: 1;
       margin-bottom: 0.5em;
       margin-top: 0;
-      color: $primary;
 
       svg {
         padding-left: 0.3em;
       }
 
       a {
-        color: $primary;
-
+        color: $white;
         &:hover,
         &:focus {
           color: $secondary;

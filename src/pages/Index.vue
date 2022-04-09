@@ -3,7 +3,7 @@
     <div class="container">
       <About/>
       <hr>
-      <Gallery/>
+      <Highlights/>
       <hr>
       <Experience/>
       <hr>
@@ -18,7 +18,7 @@
 
 <script>
 import About from "../components/About";
-import Gallery from "../components/Gallery";
+import Highlights from "../components/Highlights";
 import Experience from "../components/Experience";
 import Skills from "../components/Skills";
 import Education from "../components/Education";
@@ -26,7 +26,7 @@ import Contact from "../components/Contact";
 export default {
   components: {
     About,
-    Gallery,
+    Highlights,
     Experience,
     Skills,
     Education,

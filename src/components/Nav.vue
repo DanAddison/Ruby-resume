@@ -17,7 +17,7 @@
           <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#gallery')">Gallery</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#highlights')">Highlights</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Experience</a>

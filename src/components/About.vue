@@ -1,18 +1,17 @@
 <template>
   <section class="resume-section" id="about">
       <h1>
-        Blue<span class="text-primary">Gold</span>
+        Ruby <span class="text-primary">Addison</span>
       </h1>
-      <p class="subheading">Ruby Addison</p>
-      <p class="lead">I'm a freelance artist/ educator from Folkerstone. I am experienced in curating and delivering exciting learning programmes, and in cultivating a diverse audience. I want to make a lasting impact on others through my work. I work in education because I have a passion to engage young people, communities and individuals through learning. I want to give people the opportunity to explore new things and to use their imaginations.
-      I particularly enjoy making collages, hand-made jewellery and paper-cut crafts.</p>
+      <p class="subheading">Artist</p>
+      <p class="lead">I'm a freelance artist/ educator from Folkestone. I help arts organisations across Kent to develop and deliver fun workshops and learning programmes. I love encouraging young people and communities to explore new things, and to use their imaginations.</p>
 
       <div class="social-icons">
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/bluegoldstudio/" target="_blank" rel="noopener noreferrer">
           <font-awesome :icon="['fab', 'instagram']"/>
         </a>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fab', 'facebook']"/>
+        <a href="https://www.linkedin.com/in/ruby-bolton-891978174/" target="_blank" rel="noopener noreferrer">
+          <font-awesome :icon="['fab', 'linkedin']"/>
         </a>
       </div>
   </section>
